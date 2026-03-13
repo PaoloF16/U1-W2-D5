@@ -1,0 +1,214 @@
+body{
+  margin:0;
+  background-color:#e9edee;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#222;
+}
+
+header{
+  width:100%;
+  background-color:#222F3F;
+}
+
+main{
+  width:96%;
+  margin:0 auto;
+  padding-top:2vw;
+}
+
+/* logo superior */
+
+#imageAmazon{
+  width:100%;
+  padding:1vw 0 1vw 2vw;
+  box-sizing:border-box;
+}
+
+#imageAmazon img{
+  width:10vw;
+  display:block;
+}
+
+/* navbar */
+
+.navBarTop{
+  background-color:#364759;
+  width:100%;
+}
+
+.navBarTop ul{
+  margin:0;
+  padding:0.8vw 0 0.8vw 1vw;
+}
+
+.navBarTop li{
+  display:inline-block;
+  margin-right:1.5vw;
+  color:white;
+  font-size:1vw;
+  font-weight:500;
+}
+
+/* barra naranja */
+
+.boxOrange{
+  background-color:#F56600;
+  width:100%;
+  margin:0 0 2vw 0;
+  text-align:center;
+}
+
+.boxOrange h3{
+  margin:0;
+  padding:0.7vw 0;
+  color:white;
+  font-size:1.2vw;
+}
+
+/* banner principal */
+
+#upbox{
+  width:100%;
+  margin-bottom:2vw;
+  position:relative;
+}
+
+#upbox img{
+  width:100%;
+  height:14vw;
+  object-fit:cover;
+  display:block;
+}
+
+/* texto sobre banner */
+
+#upbox::before{
+  content:"Holiday Gift Guides";
+  position:absolute;
+  top:3.5vw;
+  left:0;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-size:2vw;
+  font-weight:700;
+}
+
+#upbox::after{
+  content:"Be a go-gifter";
+  position:absolute;
+  top:6vw;
+  left:0;
+  width:100%;
+  text-align:center;
+  color:white;
+  font-size:1.2vw;
+}
+
+/* sección productos */
+
+#shopNowBox{
+  background-color:white;
+  width:100%;
+  padding:1.5vw;
+  box-sizing:border-box;
+  margin-bottom:2vw;
+}
+
+#shopNowBox h2{
+  display:inline-block;
+  margin:0 1vw 1vw 0;
+  font-size:1.7vw;
+  font-weight:700;
+}
+
+#shopNowBox h4{
+  display:inline-block;
+  margin:0;
+  font-size:1vw;
+  color:#0f6674;
+  font-weight:700;
+}
+
+/* grid imágenes */
+
+.boxItem{
+  width:100%;
+  text-align:center;
+}
+
+.boxItem div{
+  display:inline-block;
+  width:23%;
+  margin-right:2%;
+  vertical-align:top;
+}
+
+.boxItem div:last-child{
+  margin-right:0;
+}
+
+#shopNowBox img{
+  width:100%;
+  height:20vw;
+  object-fit:cover;
+  border-radius:1vw;
+  display:block;
+}
+
+/* secciones grandes */
+
+#middleBox,
+#bottomImgBox{
+  width:100%;
+  text-align:center;
+  margin-bottom:2vw;
+}
+
+#middleBox img,
+#bottomImgBox img{
+  width:100%;
+  display:block;
+  margin-bottom:0.7vw;
+}
+
+#middleBox h2,
+#bottomImgBox h2{
+  display:inline-block;
+  margin:0 1vw 0 0;
+  font-size:1.3vw;
+}
+
+#middleBox h4,
+#bottomImgBox h4{
+  display:inline-block;
+  font-size:0.9vw;
+  color:#0f6674;
+  font-weight:700;
+}
+
+/* footer */
+
+footer{
+  width:100%;
+  background-color:#222F3F;
+  text-align:center;
+}
+
+footer > div:first-child{
+  background-color:#364759;
+  padding:1vw 0;
+}
+
+footer > div:first-child p{
+  margin:0;
+  color:white;
+  font-size:0.9vw;
+  text-decoration:underline;
+}
+
+footer img{
+  display:block;
+  margin:3vw auto;
+  width:8vw;
+}
